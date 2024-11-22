@@ -1,0 +1,43 @@
+//CLIENTE
+	id_cliente int AutoIncrement
+	rut_cliente String VARCHAR(25)
+	nombre_cli String VARCHAR(25)
+	apellido_cli string VARCHAR(25)
+//DIRECCION
+	id_direccion	int AutoIncremenent
+	nombre_dir	VARCHAR(60)
+
+//COMUNA
+	id_comuna	1.-Peñaflor
+			2.-Padre Hurtado
+			3.-Talagante
+			4.-El monte
+	nombre_comuna VARCHAR(25)
+
+//PRODUCTO
+	id_producto	int auto increment
+	nombre_pro	VARCHAR(25)
+	tipo_pro /	1.-Completo	1200
+			2.-Churrasco	2000
+			3.-Papa Fritas	2000
+			4.-PolloFrito	11000	
+			4.-Colacion	5000
+			6.-Promocion  	8500
+	precio_pro	NUMBER (11)
+	dis_pro / 	BOLEAN
+			1.Disponible
+			2.No disponible
+
+//ORIDEN
+	id_orden	AUTO INCREMENT
+	estado_orden/	INT ()
+			1.-Preparando
+			2.-Lista
+			3.-Entregada
+			4.-Cancelada
+	observacion_orden
+//BOLETA
+	id_boleta
+	total_boleta
+
+	
